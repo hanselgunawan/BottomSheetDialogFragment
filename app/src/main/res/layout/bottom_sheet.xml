@@ -6,7 +6,7 @@
     android:paddingBottom="8dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/share_textview"
         android:layout_marginTop="8dp"
         android:drawableLeft="@drawable/ic_share"
         android:drawableStart="@drawable/ic_share"
@@ -17,33 +17,33 @@
         style="@style/ActionItem"
         />
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/upload_textview"
         android:drawableLeft="@drawable/ic_upload"
         android:drawableStart="@drawable/ic_upload"
         android:text="@string/action_upload"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/share_textview"
         style="@style/ActionItem"
         />
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/copy_textview"
         android:drawableLeft="@drawable/ic_copy"
         android:drawableStart="@drawable/ic_copy"
         android:text="@string/action_copy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/upload_textview"
         style="@style/ActionItem"
         />
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/print_textview"
         android:drawableLeft="@drawable/ic_print"
         android:drawableStart="@drawable/ic_print"
         android:text="@string/action_print"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/copy_textview"
         style="@style/ActionItem"
         />
 
